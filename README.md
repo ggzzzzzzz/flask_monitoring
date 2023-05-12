@@ -12,6 +12,6 @@ Includes:
 > Harvest is also checked via systemctl, however it is done remotely (as in my case we have several harvest instances running across different hosts). 
 > Grafana, Influx and NodeRed are being checked via curl.
 
-> The main backend script is to be scheduled (cron) to run every minute; <b>when any service is down for 5 consequite minutes then a ticket is sent to the specified endpoint</b> via curl (failover included).
+> The main backend script is to be scheduled (cron) to run every minute; <b>when any service is down for 5 consecutive minutes then a ticket is sent to the specified endpoint</b> via curl (failover included).
 
 > For more detailed information see the notebook.
